@@ -9,16 +9,19 @@ gem 'sinatra-contrib'
 gem 'sinatra-activerecord'
 
 gem 'puma'
-gem 'tux'
 
 group :development, :test do
+  gem 'faker'
   gem 'pry'
   gem 'shotgun'
   gem 'sqlite3'
+  gem 'tux'
 end
 
 # Additional gems
 gem 'instagram'
-
-gem 'faker'
 gem 'sass'
+
+group :production do
+  gem 'pg'
+end

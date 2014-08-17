@@ -1,5 +1,5 @@
 # Instagram callback URL
-CALLBACK_URL = "http://localhost:3000/oauth/callback"
+CALLBACK_URL = "http://lastisaw.herokuapp.com/oauth/callback"
 
 get "/oauth/connect" do
   redirect Instagram.authorize_url(:redirect_uri => CALLBACK_URL)
