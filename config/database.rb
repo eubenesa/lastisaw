@@ -10,7 +10,7 @@ if development?
     database: "db/db.sqlite3"
   }
 else
-  set :database, ENV['DATABASE_URL']
+  set :database, {postgres://bgzxhemdzehchq:A_ZbGmi8KGyKb2UwBb67jDhEsX@ec2-50-19-219-235.compute-1.amazonaws.com:5432/d2rtvp5nbidt07}
 end
 
   # Load all models from app/models, using autoload instead of require
