@@ -16,8 +16,11 @@ Brought to you by Eubene Sa and Sunil Unka
 
 1. `bundle update`
 2. `bundle install`
-3. `bundle exec shotgun -p 3000 -o 0.0.0.0`
-4. Visit `http://localhost:3000/` in your browser.
+3. `bundle exec rake db:create`
+4. `bundle exec rake db:migrate`
+5. `bundle exec rake db:seed`
+6. `bundle exec shotgun -p 3000 -o 0.0.0.0`
+7. Visit `http://localhost:3000/` in your browser.
 
 ## Debugging
 
