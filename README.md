@@ -1,4 +1,4 @@
-# Last I Saw
+# [Last I Saw](http://lastisaw.herokuapp.com/)
 
 Lighthouse Labs W4 project  
 Brought to you by Eubene Sa and Sunil Unka
