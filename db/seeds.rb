@@ -119,10 +119,10 @@ osheaga_2014_artists.each do |artist|
   Artist.create(name: artist)
 end
 
-# 100.times do
-#   Event.create(date: Time.at(Random.new.rand(-487270800..1311490800)).to_date, city_name: "#{Faker::Address.city}", artist_id: Random.new.rand(1..114))
-# end
+500.times do
+  Event.create(date: Time.at(Random.new.rand(-487270800..1311490800)).to_date, city_name: "#{Faker::Address.city}", artist_id: Random.new.rand(1..114))
+end
 
-# 500.times do
-#   Review.create(review: Faker::Lorem.characters(140), event_id: Random.new.rand(1..100))
-# end
+1000.times do
+  Review.create(review: Faker::Lorem.characters(140), event_id: Random.new.rand(1..100))
+end
