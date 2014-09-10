@@ -12,16 +12,19 @@ Brought to you by Eubene Sa and Sunil Unka
 * SQLite -> PostgreSQL
 * Tiny, tiny bit of JavaScript/jQuery  
 
-## Getting up and running
+## Getting it up and running locally
 
-1. `bundle install`
-2. `bundle exec rake db:setup`
-3. `bundle exec shotgun -p 3000 -o 0.0.0.0`
-4. Visit `http://localhost:3000/` in your browser.
+1. `git clone git@github.com:eubenesa/lastisaw.git`
+2. `bundle install`
+3. `bundle exec rake db:setup`
+4. `bundle exec shotgun -p 3000 -o 0.0.0.0`
+5. Visit `http://localhost:3000/` in Chrome.
 
 ## Debugging
 
-Ideally, you should have at least 3 tabs open in your CLI for debugging. Run these commands from the repository's root directory:  
-1. `bundle exec shotgun -p 3000 -o 0.0.0.0`  
-2. `bundle exec pry -r './config/environment.rb'`  
-3. `sqlite3 db/db.sqlite3`
+Ideally, you should have at least 2 additional tabs open in your Terminal for debugging. Run the following commands from the project's root directory:  
+  
+1. `bundle exec pry -r './config/environment.rb'`  
+2. `sqlite3 db/db.sqlite3`  
+
+## [Project management](https://trello.com/b/upwrPWzj/last-i-saw)
